@@ -1,8 +1,23 @@
-Docker file:
+Create a Docker file:
 
 1. FROM --> specify Base image.
 2. COPY or ADD --> from host system to image.
 3. RUN --> execute commands in the image such as install software.
 4. CMD or ENTRYPOINT --> command that runs when container starts.
 5. EXPOSE --> the port the container will listen to.
+
+open docker Desktop before doing dcker build:
+
+Create Image:
+docker build -t mlops-docker-demo . 
+
+docker run -p 5000:5000 mlops-docker-demo
+
+Tag your name before uplaoding to dockerhub: docker tag mlops-docker-demo souvikpaul1/mlops-docker-demo:latest1
+you should be logged in to docker hub.
+push image to docker hub: docker push souvikpaul1/mlops-docker-demo:latest1
+Pull image to docker hub: docker pull souvikpaul1/mlops-docker-demo:latest1
+Run the pull image: docker run -p 5000:5000 souvikpaul1/mlops-docker-demo:latest1
+
+
 
