@@ -21,3 +21,16 @@ Run the pull image: docker run -p 5000:5000 souvikpaul1/mlops-docker-demo:latest
 
 
 
+
+1. Docker Desktop --> Docker engine/Docker Deomon
+2. Rest API
+3. Client Docker Cli
+
+
+Docker Desktop Creates:
+Manages Image
+manages Data Volume
+Manages COntainers
+Manages Network
+
+
