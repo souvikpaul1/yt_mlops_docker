@@ -1,0 +1,8 @@
+Docker file:
+
+1. FROM --> specify Base image.
+2. COPY or ADD --> from host system to image.
+3. RUN --> execute commands in the image such as install software.
+4. CMD or ENTRYPOINT --> command that runs when container starts.
+5. EXPOSE --> the port the container will listen to.
+
